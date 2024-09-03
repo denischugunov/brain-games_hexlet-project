@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/denischugunov/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/denischugunov/js-starter-project-44/actions)",
   "main": "index.js",
-  "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "code": "bin/brain-games.js"
   },
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/denischugunov/js-starter-project-44.git"
   },
-  "author": "denis.c (denis.chugunov98@gmail.com)",
+  "author": "denis.c",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/denischugunov/js-starter-project-44/issues"
@@ -22,5 +22,17 @@
   "homepage": "https://github.com/denischugunov/js-starter-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/create-config": "^1.0.0",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.9.1",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-react": "^7.35.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "globals": "^15.9.0"
   }
 }
