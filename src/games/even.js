@@ -1,7 +1,7 @@
 import readlineSync from 'readline-sync';
 
 export default () => {
-  const getRandomNum = () => Math.round(Math.random() * 100);
+  const getRandomNum = () => Math.floor(Math.random() * 101);
   const isEven = (num) => num % 2 === 0;
 
   let correctAnswer = 0;
