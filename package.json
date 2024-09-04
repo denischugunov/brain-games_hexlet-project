@@ -4,14 +4,15 @@
   "description": "[![Actions Status](https://github.com/denischugunov/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/denischugunov/js-starter-project-44/actions)",
   "main": "index.js",
   "bin": {
-    "code": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
+    "type": "git", 
     "url": "git+https://github.com/denischugunov/js-starter-project-44.git"
   },
   "author": "denis.c",
