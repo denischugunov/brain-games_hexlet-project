@@ -14,19 +14,19 @@
 
 ## Установка и подготовка зависимостей
 ***
-\`\`\`bash
+```
 $ sudo npm link 
 npm ci
-\`\`\`
+```
 
 ## Игра: "Проверка на четность"
 ***
 Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить \`yes\`, если число чётное, или \`no\` — если нечётное.
 
 ### Запуск игры
-\`\`\`bash
+```
 $ brain-even
-\`\`\`
+```
 
 ### Пример игры
 [![asciicast](https://asciinema.org/a/cUOyQPUgPN8mBNbdf2DLjHhOu.svg)](https://asciinema.org/a/cUOyQPUgPN8mBNbdf2DLjHhOu)
@@ -36,9 +36,9 @@ $ brain-even
 Суть игры в следующем: пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
 
 ### Запуск игры
-\`\`\`bash
+```
 $ brain-calc
-\`\`\`
+```
 
 ### Пример игры
 [![asciicast](https://asciinema.org/a/leb1RR5hpIb6U7Ly7ah95lZ4d.svg)](https://asciinema.org/a/leb1RR5hpIb6U7Ly7ah95lZ4d)
@@ -48,9 +48,9 @@ $ brain-calc
 Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 
 ### Запуск игры
-\`\`\`bash
+```
 $ brain-gcd
-\`\`\`
+```
 
 ### Пример игры
 [![asciicast](https://asciinema.org/a/CasjlNULfj2rgn1mlMQr5POeQ.svg)](https://asciinema.org/a/CasjlNULfj2rgn1mlMQr5POeQ)
@@ -60,9 +60,9 @@ $ brain-gcd
 Показываем игроку ряд чисел, образующий арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
 
 ### Запуск игры
-\`\`\`bash
+```
 $ brain-progression
-\`\`\`
+```
 
 ### Пример игры
 [![asciicast](https://asciinema.org/a/zCRd40Zs3UDrSJmabXJz94UVL.svg)](https://asciinema.org/a/zCRd40Zs3UDrSJmabXJz94UVL)
@@ -72,9 +72,9 @@ $ brain-progression
 Показываем игроку число. Игрок должен определить это число простое или нет.
 
 ### Запуск игры
-\`\`\`bash
+```
 $ brain-prime
-\`\`\`
+```
 
 ### Пример игры
 [![asciicast](https://asciinema.org/a/89po39w3dOqdPkgeubvg6RpPa.svg)](https://asciinema.org/a/89po39w3dOqdPkgeubvg6RpPa)
