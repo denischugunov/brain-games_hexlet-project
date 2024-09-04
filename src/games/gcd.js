@@ -22,4 +22,3 @@ const checkGcd = () => {
 };
 
 export default () => runGameSession(gameRules, checkGcd);
-
