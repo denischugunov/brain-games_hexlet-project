@@ -16,7 +16,7 @@
 ***
 ```
 $ sudo npm link 
-npm ci
+make install
 ```
 
 ## Игра: "Проверка на четность"
