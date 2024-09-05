@@ -18,12 +18,14 @@ const createProgression = () => {
 };
 
 const checkProgression = () => {
-  const progression = createProgression();
-  const randomIndex = getRandomIndexOfArr(progression);
-  const correctAnswer = progression[randomIndex];
-  progression[randomIndex] = '..';
+  const progressionArr = createProgression();
 
-  console.log(`Question: ${progression}`);
+  const randomIndex = getRandomIndexOfArr(progressionArr);
+  const correctAnswer = progressionArr[randomIndex];
+  progressionArr[randomIndex] = '..';
+  const progressionStr = progressionArr.join(' ');
+
+  console.log(`Question: ${progressionStr}`);
 
   return correctAnswer;
 };
